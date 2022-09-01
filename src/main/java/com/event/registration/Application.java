@@ -8,7 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 @PropertySource({"classpath:application.properties"})
-public class Application extends SpringBootServletInitializer {
+public class Application extends SpringBootServletInitializer {   
     
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
